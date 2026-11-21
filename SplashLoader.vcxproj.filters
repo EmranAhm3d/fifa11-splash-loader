@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="fifaapi">
+      <UniqueIdentifier>{00f9c57b-8754-4f17-82dc-78cd8f474ee1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fifaapi\DebugPrint.h">
+      <Filter>fifaapi</Filter>
+    </ClInclude>
+    <ClInclude Include="fifaapi\Error.h">
+      <Filter>fifaapi</Filter>
+    </ClInclude>
+    <ClInclude Include="fifaapi\LicenseCheck.h">
+      <Filter>fifaapi</Filter>
+    </ClInclude>
+    <ClInclude Include="fifaapi\Other.h">
+      <Filter>fifaapi</Filter>
+    </ClInclude>
+    <ClInclude Include="fifaapi\Patch.h">
+      <Filter>fifaapi</Filter>
+    </ClInclude>
+    <ClInclude Include="fifaapi\plugin.h">
+      <Filter>fifaapi</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
